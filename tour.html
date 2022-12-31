@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="thead">Book Your Tour Here</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Tour Information</legend>
+        <b>Select Tour Type</b>
+           
+            <select name="tourtype" id="">
+                <option value="">None</option>
+                <option value="vip">VIP</option>
+                <option value="4star">4 Star</option>
+                <option value="Economy">Economy</option>
+</select>
+    <p>
+        <b>Kindly select the Facilities you want to get in Tour:</b>
+        <br>
+        <input type="checkbox" name="facilities" value="Breakfast" checked>
+        Breakfast
+        <br>
+        <input type="checkbox" name="facilities" value="Swimming">
+        Swimming
+        <br>
+        <input type="checkbox" name="facilities" value="Games">
+        Games
+        <br>
+        <input type="checkbox" name="facilities" value="jeep Tour">
+        jeep Tour
+        <br>
+        <input type="checkbox" name="facilities" value="Horse Riding">
+        Horse Riding
+
+
+
+    </p>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+                <b>Select Your Gender:</b>
+                <br>
+                <input type="radio" name="gender" value="male">
+                Male
+                <input type="radio" name="gender" value="female">
+                Female
+            </p>
+
+            <p>
+                <label for="username">Your Name:</label>
+                <input type="text" required name="username" placeholder="User Name">
+
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" required name="email" placeholder="User Email">
+            </p>
+
+            <p>
+                <label for="number">Contact Number:</label>
+                <input type="number" name="number" placeholder="Contact no">
+
+            </p>
+            <p>
+                
+                <label for="number">CNIC Number:</label>
+                <input type="number" name="number" placeholder="CNIC no" maxlength="14">
+            </p>
+            <p>
+                Select Tour Date
+                <input type="date" placeholder="Tour Date">
+            </p>
+            <p>
+                Comments
+                <textarea name="comments" id="" cols="30" rows="10" placeholder="Write Your Comments Here"></textarea>
+
+            </p>
+            <p>
+                <b>Upload your CNIC picture for Verification:</b>
+                <br>
+                <input type="file"> 
+            </p>
+
+        </fieldset>
+
+        <p>
+            
+            <input type="Submit" value="Submit your information">
+        </p>
+
+    </form>
+
+    
+</body>
+</html>

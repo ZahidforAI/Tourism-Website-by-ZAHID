@@ -1,0 +1,77 @@
+.heading {
+
+    text-align: center;
+    font-style: italic;
+    background-color: aqua;
+
+}
+
+.main{
+
+        background-color: black;
+        color:white;
+        border-radius: 50px;
+        font-size: 40px;
+        
+        
+        
+
+}
+@font-face{
+
+    font-family: DancingScript;
+    src: url(fonts/DancingScript-Bold.ttf);
+}
+.main{
+    font-family: DancingScript;
+    font-style: bold;
+}
+.buttons{
+    display:flex;
+    
+}
+
+
+.bt2{
+
+    text-transform: uppercase;
+    background-color: darkblue;
+    color: white;
+    font-style: italic;
+    height: 50px;
+    margin: 10px;
+    
+    border-radius: 100px;   
+}
+.bt1{
+    
+    text-transform: uppercase;
+    background-color: bisque;
+    font-style: italic;
+    height: 50px;
+     margin: 10px;
+     background-color: darkblue;
+     color: white;
+     border-radius: 100px;
+    }
+.thead{
+
+    background-color: yellow;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.para::first-letter{
+
+font-weight: 900;
+font-size: 25px;
+text-transform: capitalize;
+}
+.para{
+    text-align: center;
+    text-transform: lowercase;
+    background-color: peachpuff;
+        
+}
+
